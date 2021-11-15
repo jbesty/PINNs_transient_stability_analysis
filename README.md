@@ -18,14 +18,16 @@ The code is structured in the following way:
 - `PINN.py` defines the neural network model that inherits from the class `tensorflow.keras.models.Model`
 - `create_data.py` creates a database of trajectories that is used in the selection of the training, validation, and test data. Needs to be run only once.
 - `dataset_handling.py` prepares the data by splitting them and provide the correct format.
+- `setup_and_run` provides a wrapper to setup and run multiple training processes in parallel.
 
 ## Folder structure
-The directory for the storage of all data should contain the following folders and needs to be defined in `train_model.py` and `create_data.py`:
+The directory for the storage of all data should contain the following folders and needs to be defined in `train_model.py`, `create_data.py`, and `setup_and_run`:
 - `datasets`
 - `logs`
 - `result_datasets`
 - `model_weights`
 - `quantiles`
+- `setup_tables`
 
 ## Citation
 
