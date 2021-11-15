@@ -31,14 +31,14 @@ The directory for the storage of all data should contain the following folders a
 
 ## Citation
 
-@misc{stiasny2021transient,
-      title={Transient Stability Analysis with Physics-Informed Neural Networks}, 
-      author={Jochen Stiasny and Georgios S. Misyris and Spyros Chatzivasileiadis},
-      year={2021},
-      eprint={2106.13638},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+      @misc{stiasny2021transient,
+          title={Transient Stability Analysis with Physics-Informed Neural Networks}, 
+          author={Jochen Stiasny and Georgios S. Misyris and Spyros Chatzivasileiadis},
+          year={2021},
+          eprint={2106.13638},
+          archivePrefix={arXiv},
+          primaryClass={cs.LG}
+      }
  
  ## Related work
  
